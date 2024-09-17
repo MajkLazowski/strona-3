@@ -1,0 +1,158 @@
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabele z rowspan i colspan</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Zadanie 1: Prosta Tabela z rowspan</h1>
+    <table>
+        <tr>
+            <td rowspan="2">Komórka 1</td>
+            <td>Komórka 2</td>
+            <td>Komórka 3</td>
+        </tr>
+        <tr>
+            <td>Komórka 4</td>
+            <td>Komórka 5</td>
+        </tr>
+        <tr>
+            <td>Komórka 6</td>
+            <td>Komórka 7</td>
+            <td>Komórka 8</td>
+        </tr>
+    </table>
+
+    <h1>Zadanie 2: Tabela z colspan</h1>
+    <table>
+        <tr>
+            <td>Komórka 1</td>
+            <td>Komórka 2</td>
+            <td>Komórka 3</td>
+            <td>Komórka 4</td>
+        </tr>
+        <tr>
+            <td>Komórka 5</td>
+            <td colspan="2">Połączone komórki</td>
+            <td>Komórka 6</td>
+        </tr>
+        <tr>
+            <td>Komórka 7</td>
+            <td>Komórka 8</td>
+            <td>Komórka 9</td>
+            <td>Komórka 10</td>
+        </tr>
+    </table>
+
+    <h1>Zadanie 3: Tabela z rowspan i colspan</h1>
+    <table>
+        <tr>
+            <td colspan="2">Połączone komórki</td>
+            <td>Komórka 3</td>
+            <td>Komórka 4</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Komórka 1</td>
+            <td>Komórka 5</td>
+            <td>Komórka 6</td>
+            <td>Komórka 7</td>
+        </tr>
+        <tr>
+            <td>Komórka 8</td>
+            <td>Komórka 9</td>
+            <td>Komórka 10</td>
+        </tr>
+        <tr>
+            <td>Komórka 11</td>
+            <td>Komórka 12</td>
+            <td>Komórka 13</td>
+            <td>Komórka 14</td>
+        </tr>
+    </table>
+
+    <h1>Zadanie 4: Tabela z Nagłówkami i Łączonymi Komórkami</h1>
+    <table>
+        <tr>
+            <th>Produkt</th>
+            <th>Cena</th>
+            <th>Ilość</th>
+        </tr>
+        <tr>
+            <td>Produkt 1</td>
+            <td>10 zł</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Produkt 2</td>
+            <td>20 zł</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>20 zł</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>Produkt 3</td>
+            <td colspan="2">Brak danych</td>
+        </tr>
+        <tr>
+            <td>Produkt 4</td>
+            <td>15 zł</td>
+            <td>7</td>
+        </tr>
+    </table>
+
+    <h1>Zadanie 5: Złożona Tabela z rowspan i colspan</h1>
+    <table>
+        <tr>
+            <td colspan="3">Połączone komórki</td>
+            <td>Komórka 4</td>
+            <td>Komórka 5</td>
+        </tr>
+        <tr>
+            <td>Komórka 6</td>
+            <td>Komórka 7</td>
+            <td>Komórka 8</td>
+            <td>Komórka 9</td>
+            <td>Komórka 10</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Komórka 1</td>
+            <td>Komórka 11</td>
+            <td>Komórka 12</td>
+            <td>Komórka 13</td>
+            <td>Komórka 14</td>
+        </tr>
+        <tr>
+            <td>Komórka 15</td>
+            <td>Komórka 16</td>
+            <td>Komórka 17</td>
+            <td>Komórka 18</td>
+        </tr>
+        <tr>
+            <td>Komórka 19</td>
+            <td colspan="3">Połączone komórki</td>
+            <td>Komórka 20</td>
+        </tr>
+        <tr>
+            <td>Komórka 21</td>
+            <td>Komórka 22</td>
+            <td>Komórka 23</td>
+            <td>Komórka 24</td>
+            <td>Komórka 25</td>
+        </tr>
+    </table>
+</body>
+</html>
